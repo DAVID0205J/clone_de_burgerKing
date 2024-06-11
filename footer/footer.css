@@ -1,0 +1,35 @@
+
+.contenedor_footer{ 
+    display: flex;   
+
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+
+}
+.textoF{
+    color: #e02222;
+    font-weight: 600
+}
+.principio_F{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+
+    width: 100%;
+    gap: 110px;
+
+}
+.final_footer{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 15px;
+    gap: 5px;
+}
