@@ -13,7 +13,7 @@ let main=`
         <p class="text_orden2">7:00 am a 22:00 pm</p>
     </div>
     <div class="carrusel">
-        <img src="/img/Screenshot 2024-06-11 000255.png" alt="" width="965px">
+        <img src="/IMG/Screenshot 2024-06-11 000255.png" alt="" width="965px">
     </div>
     
 </div>
