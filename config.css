@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html{
+    width: 100%;
     font-family: monospace;
 }
 
@@ -19,8 +21,7 @@ body{
     background-color: #f1ede4;
 }
 #root{
-    width: 100%;
-    height: 110vh;
+    height: auto;
     background-color: #f1ede4;
 
     margin: auto;
@@ -30,8 +31,11 @@ body{
     grid-row-end: 3;
 }
 .whatssap{
-    position: fixed;
-    top: 38rem;
-    left: 89rem;
+    
+    position:fixed;
+    justify-self: right;
+    align-content: end;
     cursor: pointer;
+    height: 95%;
+    margin-right: 2rem;
 }

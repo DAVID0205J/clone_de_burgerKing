@@ -13,8 +13,17 @@ let main=`
         <p class="text_orden2">7:00 am a 22:00 pm</p>
     </div>
     <div class="carrusel">
-        <img src="./imagen.png" alt="" width="965px">
-    </div>
+            <div class="carousel-inner">
+                <div class="carousel">
+                    <img src="https://bk.gt/images/promo/5413636.jpg" alt="Imagen 1">
+                    <img src="https://bk.gt/images/promo/3471323.jpg" alt="Imagen 2">
+                    <img src="https://bk.gt/images/promo/6201719.jpg" alt="Imagen 3">
+                    <img src="https://bk.gt/images/promo/5021432.jpg" alt="Imagen 4">
+                </div>
+                <button class="button left" onclick="moveCarousel(-1)">&#10094;</button>
+                <button class="button right" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+        </div>
     
 </div>
 `

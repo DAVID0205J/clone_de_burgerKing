@@ -55,6 +55,7 @@ header{
     display: grid;
     grid-template-columns: 10% 855px 21.5% ;
 
+    justify-content: center;
     border-bottom: 2.5px solid rgba(152, 151, 151, 0.272);
 }
 .conteiner{
@@ -85,18 +86,56 @@ header{
     padding-left: 1rem;
 
 }
+.opcion, .opcion5{
+    color: #fda736;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    align-content: center;
+    background-color: #51231200;
+    border: none;
+}
 .opcion5{
-    border-right: 1.5px solid rgba(184, 183, 183, 0.333);
+    border-right: 1.7px solid rgba(224, 224, 224, 0.484);
 }
 .opcion1{
+    color: #fda736;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    align-content: center;
+    background-color: #51231200;
+    border: none;
+}
+.opcion1:hover{
     color: #df322c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    cursor: pointer;
+}
+.opcion:hover{
+    color: #df322c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    cursor: pointer;
+}
+.opcion5:hover{
+    color: #df322c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    cursor: pointer;
+
 }
 .iconoBuscar{
     display: flex;    
     align-content: center;
     align-self: center;
     justify-self: center;
+    border: none;
+    background-color: #ffffff00;
 
+}
+.iconoBuscar:hover{
+    cursor: pointer;
 }
 .carrito {
     width: 15rem;
@@ -139,8 +178,22 @@ header{
     align-items: center; /* Centra los elementos verticalmente */
     border-radius: 4rem;
     color: rgb(50, 50, 50);
-    background-color: rgba(219, 218, 218, 0.183);
+    background-color: rgba(219, 218, 218, 0.208);
 }
 .articulo2{
     border-left: 1px solid black;
+}
+
+@media (max-width:1280px) {
+    .contenedor_carrito{
+        height: 2.5rem;
+    }
+
+}
+@media (min-width:1281px ) and (max-width:1400px) {
+    .carrito{
+        padding-left: 5rem;
+    }
+
+
 }
